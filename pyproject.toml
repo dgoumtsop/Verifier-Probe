@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verifier-probe"
+version = "0.0.1"
+description = "Probing alpha,beta-CROWN safety certificates against real float32 execution"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools]
+packages = ["verifier_probe"]
